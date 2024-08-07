@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confessions Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Confessions</h1>
+    </header>
+    <main>
+        <section class="introduction">
+            <h2>About Us</h2>
+            <p>Share your confessions anonymously with us.</p>
+        </section>
+        <section class="confession">
+            <h2>Submit Your Confession</h2>
+            <form action="https://formspree.io/f/{Create a Formspree account at Formspree.
+                Create a new form in Formspree and get your form ID.
+                Replace {your_form_id} in the action attribute of the form with your actual Formspree form ID.
+                Create a folder for your project.
+                Create two files inside this folder: index.html and styles.css.
+                Copy the HTML code into index.html.
+                Copy the CSS code into styles.css.
+                Open index.html in a web browser to see your simple website.
+                Now, when someone submits a confession through the form, it will be sent to the email address you provided in your Formspree account. If you need further customization or additional features, let me know!}" method="POST">
+                <label for="name">Name (optional):</label>
+                <input type="text" id="name" name="name">
+                <label for="confession">Your Confession:</label>
+                <textarea id="confession" name="confession" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Confessions</p>
+    </footer>
+</body>
+</html>
